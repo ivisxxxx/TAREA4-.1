@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <section class="parent">
+        <h1>
+          Determinar si un número es par o impar
+        </h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar numeros:<input type="text" id="numero1" class="numero"
+          /></label>
+        </div>
+        <pre>[<span id="arreglo"></span>]</pre>
+        <div class="caja">
+          <button type="button" class="boton" onclick="paresImpares()">
+            Presentar
+          </button>
+        </div>
+        <a href="ejercicios.html">Regresar</a>
+        <div class="explicacion">
+          <h3>
+            Explicación:<br />
+            1) numero % 2 === 0 verifica si el número es divisible por 2.
+
+            <br/>2) Si la condición es verdadera, el número es par.<br>3) Si no, el número es impar
+          </h3>
+        </div>
+        <p>Los numeros pares son:<label id="resultado"></label></p>
+        <p>Los numeros impares son:<label id="resultado2"></label></p>
+      </section>
+    </div>
+    <script src="../Javascript/ejercicio18.js"></script>
+  </body>
+</html>

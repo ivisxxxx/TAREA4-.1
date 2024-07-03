@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/ejercicio01.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <section class="parent">
+        <h1>
+        Determinar si un número es positivo, negativo o cero
+        </h1>
+        <div class="caja">
+          <label for="numero1"
+            >Ingresar numeros:<input type="number" id="numero1" class="numero"
+          /></label>
+        </div>
+        <pre>[<span id="arreglo"></span>]</pre>
+        <div class="caja">
+          <button type="button" class="boton" onclick="paresImpares()">
+            Presentar
+          </button>
+        </div>
+        <a href="ejercicios.html">Regresar</a>
+        <div class="explicacion">
+          <h3>
+            Explicación:<br />
+            1) numero > 0 verifica si el número es positivo
+
+            <br/>2) numero < 0 verifica si el número es negativo.
+            <br>3) Si ninguna de las condiciones anteriores es verdadera, el número es cero.
+          </h3>
+        </div>
+        <p>Los numeros positivos son:<label id="resultado"></label></p>
+        <p>Los numeros negativos son:<label id="resultado2"></label></p>
+        <p>El numero es:<label id="resultado3"></label></p>
+      </section>
+    </div>
+    <script src="../Javascript/ejercicio20.js"></script>
+  </body>
+</html>
